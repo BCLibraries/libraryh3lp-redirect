@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "df7f7e66e6cb80caca73d48d71169489",
+    "packages": [
+        {
+            "name": "bclibraries/libraryh3lp",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BCLibraries/libraryh3lp.git",
+                "reference": "48af17c3bf63fe4384b1a32874318bb86f9de5c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BCLibraries/libraryh3lp/zipball/48af17c3bf63fe4384b1a32874318bb86f9de5c3",
+                "reference": "48af17c3bf63fe4384b1a32874318bb86f9de5c3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-redis": "*",
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BCLib\\LibraryH3lp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ben Florin",
+                    "email": "benjamin.florin@bc.edu"
+                }
+            ],
+            "description": "Links to LibraryH3lp",
+            "time": "2020-03-18T20:46:47+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

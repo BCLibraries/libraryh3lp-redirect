@@ -1,0 +1,18 @@
+{
+  "name": "bclibraries/libraryh3lp-redirect",
+  "authors": [
+    {
+      "name": "Benjamin Florin",
+      "email": "benjamin.florin@bc.edu"
+    }
+  ],
+  "require": {
+    "bclibraries/libraryh3lp": "^1.0",
+    "ext-redis": "*"
+  },
+  "config": {
+    "platform": {
+      "php": "7.1.26"
+    }
+  }
+}
